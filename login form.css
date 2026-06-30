@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiV3fOji2Gnk6rpKv0-EsnGsnJ4Ht803TtiFZIW2DHfJFGdRZFQCmYBdx6&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    backdrop-filter: blur(20px);
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    margin-left: 35%;
+    margin-top: 180px;
+    width: 30%;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+section h1{
+    margin-top: 40px;
+    margin-left: 40%;
+}
+#input1{
+    color: white;
+    background:transparent;
+    border-radius: 25px;
+    font-weight: bold;
+    width: 80%;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+#input2{
+    color: white;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+#input1::placeholder{
+    color: white;
+}
+#btn{
+    border-radius: 25px;
+    font-weight: bold;
+    width: 80%;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+a{
+    margin-left: 120px;
+}
